@@ -224,6 +224,31 @@ body {
   margin-bottom: 1rem;
   text-align: center;
 }
+/* Center the buttons horizontally and vertically, and shift them to the right */
+body {
+  display: flex;
+  justify-content: right; /* Center horizontally */
+  align-items: center;   /* Center vertically */
+  height: 100vh;         /* Full viewport height */
+  margin: 0;
+}
+
+/* Style and position the audio controls container */
+.audio-controls {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  gap: 10px;              /* Space between buttons */
+  position: relative;
+  left: 20px;            /* Shift buttons to the right */
+}
+
+/* Style for buttons */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
 
 @media (min-width: 300px) and (max-width: 600px) {
   .note__text p {
