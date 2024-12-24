@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to display the notes after the envelope opens
   function showNotes() {
     gsap.to(".js-envelop-content", {
-      height: "122%",
+      height: "126%",
       duration: 0.5
     });
 
